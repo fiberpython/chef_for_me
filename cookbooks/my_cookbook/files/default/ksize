@@ -1,0 +1,3 @@
+clear
+ls -l|sort -k5nr|more
+

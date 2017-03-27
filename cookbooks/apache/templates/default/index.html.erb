@@ -1,0 +1,26 @@
+
+
+
+<html>
+  <body>
+    <h1>Welcome to <%= node['company'] %></h1>
+    <h2>We love <%= @site_name %></h2>
+    <%= node['ipaddress'] %>:<%= @port %>
+  </body>
+</html>
+
+
+<!-- <html>
+<body>
+	<h1>Hello <%= node["apache"]["greeting"]%></h1>
+
+	<p>
+		My name is <%= node["hostname"] %>.
+	</p>
+    <p>
+	   I have	<%= node["memory"]["total"].to_i * 1024 %> bytes of RAM.
+	</p>
+
+</body>
+</html>
+ -->

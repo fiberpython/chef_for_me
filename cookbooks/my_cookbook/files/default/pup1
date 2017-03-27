@@ -1,0 +1,5 @@
+clear
+ssh pault@162.243.241.167
+echo 'You have just been disconnected'
+echo ' ' 
+
