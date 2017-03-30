@@ -6,4 +6,4 @@ log_location             STDOUT
 node_name                "fiberphoton"
 client_key               "#{current_dir}/fiberphoton.pem"
 chef_server_url          "https://api.chef.io/organizations/fiberpython"
-cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_path            ['./cookbooks']
