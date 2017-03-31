@@ -21,7 +21,7 @@ end
 # in mybin directory on all of my nodes
 #
 
-%w{l myip kk exe t k pidof_list faxw pup1 ksize}.each do |exefile|
+%w{l myip buting kk exe t k pidof_list faxw pup1 ksize}.each do |exefile|
    cookbook_file "/home/pault/mybin/#{exefile}" do
      source "#{exefile}"
      owner 'pault'
